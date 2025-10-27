@@ -1,0 +1,26 @@
+body > p:first-of-type{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;           
+    font-variant: small-caps;    
+    font-weight: bold;          
+    font-size: 18px;             
+    text-decoration: underline;  
+    text-align: center;          
+    text-indent: 2em;             
+    text-transform: capitalize;
+}
+body > p:last-of-type {
+  font-size: 16px;
+  color: blueviolet;
+  transition: all 0.3s ease;
+}
+body > p:last-of-type:hover {
+  color: pink;
+  font-weight:bolder;
+  font-style: oblique;          
+  
+}
+a {
+  text-decoration: none;
+  color: aquamarine; 
+}
